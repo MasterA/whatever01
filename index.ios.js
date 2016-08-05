@@ -11,3 +11,15 @@ class whatever01 extends React.component {
     );
   }
 }
+
+var styles = React.Stylesheet.create({
+  text: {
+    color: 'black',
+    backgroundColor: 'white',
+    fontSize: 30,
+    margin: 80
+  },
+  constainer: {
+    flex: 1
+  }
+});
